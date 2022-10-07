@@ -5,13 +5,9 @@
 
 # - [2, 3, 5, 9, 3] -> на нечётных позициях элементы 3 и 9, ответ: 12
 
-from random import randint
+from Random_list_module import Random_list
 
-N = int(input("Введите длинну списка:"))
-list_N = []
-for i in range(N):
-    list.append(list_N, randint(0,10))
-print ("Задан список:",list_N)
+list_N = Random_list(5,0,10)
 
 sum_list = 0 
 for i in range(1,len(list_N),2):

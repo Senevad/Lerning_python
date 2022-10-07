@@ -6,13 +6,9 @@
 # - [2, 3, 4, 5, 6] => [12, 15, 16];
 # - [2, 3, 5, 6] => [12, 15]
 
-from random import randint
+from Random_list_module import Random_list
 
-N = int(input("Введите длинну списка:"))
-list_N = []
-for i in range(N):
-    list.append(list_N, randint(0,10))
-print ("Задан список:",list_N)
+list_N = Random_list(5,0,10)
 
 list_duo_mulp = []
 for i in range(0,int((len(list_N)+1)/2)):
