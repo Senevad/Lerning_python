@@ -14,7 +14,7 @@ from random import randint, random
 #     print ("Задан список:",list_float)
 #     return list_float
 
-# улучшение рандомного создания списков с помощью новых функций
+# улучшение рандомного создания списков который был использован в 5 заданиях с помощью новых функций
 
 def Random_list (N,min,max):
     list_N = [randint(min,max) for i in range(N)]
